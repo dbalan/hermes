@@ -10,7 +10,7 @@ Copy the code to a subfolder of `custom_compoents` folder.
 
 Activated the component by adding following to your `configuration.yaml`
 
-```
+```yaml
 sensor:
   - platform: hermes
 ```
@@ -26,7 +26,7 @@ Call `hermes.unregister` with `{ "package_id": "<tracking no>" }`
 
 To view all your packages in a nice fashion, you may want to use [auto-entities](https://github.com/thomasloven/lovelace-auto-entities) card to view them all as a list in lovelace:
 
-```
+```yaml
 - card:
     type: entities
   filter:
