@@ -1,0 +1,17 @@
+register:
+    description: Start tracking a package
+    fields:
+        package_id:
+            description: The id of the package to track.
+            example: "123456789"
+            required: true
+        package_name:
+            description: Opional, easy to remeber name for package. If provided, the entity name will be set to this.
+
+unregister:
+    description: Stop tracking a package
+    fields:
+        package_id:
+            description: The id of the package to stop to track.
+            example: "123456789"
+            required: true

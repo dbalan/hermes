@@ -1,0 +1,9 @@
+{
+  "domain": "hermes",
+  "name": "Hermes",
+  "version": "1.0",
+  "documentation": "",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["dbalan"]
+}
